@@ -26,8 +26,8 @@ def retrieve_element_from_index(array,am)
 array[2]
 end
 
-def retrieve_first_element_from_array
- 
+def retrieve_first_element_from_array(am)
+ array[0]
 end
 
 def retrieve_last_element_from_array
