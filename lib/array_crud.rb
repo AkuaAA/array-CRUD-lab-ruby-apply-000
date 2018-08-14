@@ -1,88 +1,36 @@
 def create_an_empty_array
-empty_array = []
-end 
-create_an_empty_array
+my_array = []
+end
 
 def create_an_array 
-an_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
+my_array = ["Monday","Tuesday","Wednesday","Thurday"]
 end
-an_array
 
-def add_element_to_end_of_array(array, element)
- my_array.push("Friday")
+def add_element_to_end_of_array(array,arrays)
+array<< "arrays!"
 end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-add_element_to_end_of_array(my_array, "Friday")
 
-
-def add_element_to_start_of_array(array, element)
- my_array.unshift("Sunday")
+def add_element_to_start_of_array(array,arrays)
+ array unshiift "arrays!"
 end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-add_element_to_start_of_array(an_array, "Sunday")
 
-def remove_element_from_end_of_array(array)
-  my_array.pop("Thursday") 
-end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-remove_element_from_start_of_array("Monday",
-"Tuesday",
-"Wednesday")
+def remove_element_from_end_of_array
 
-def remove_element_from_start_of_array(array)
- my_array.shift("Monday")
 end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-remove_element_from_start_of_array("Tuesday",
-"Wednesday",
-"Thursday")
 
-def retrieve_element_from_index(array, index)
- my_array["1"]
-end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-retrieve_element_from_index(my_array, "Tuesday")
+def remove_element_from_start_of_array
 
-def retrieve_first_element_from_array(array)
- my_array["0"]
 end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-retrieve_first_element_from_array("Monday")
 
-def retrieve_last_element_from_array(array)
- my_array["-1"]
+def retrieve_element_from_index
+
 end
-my_array = ["Monday",
-"Tuesday",
-"Wednesday",
-"Thursday"
-]
-retrieve_last_element_from_array("Thursday")
+
+def retrieve_first_element_from_array
+ 
+end
+
+def retrieve_last_element_from_array
+  
+end
+
