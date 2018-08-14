@@ -22,7 +22,7 @@ def remove_element_from_start_of_array(wow)
 wow.shift
 end
 
-def retrieve_element_from_index(array,arrays[1])
+def retrieve_element_from_index(array,arrays1)
 array[1]
 end
 
